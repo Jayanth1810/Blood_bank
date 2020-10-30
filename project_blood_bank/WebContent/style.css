@@ -1,0 +1,178 @@
+        .card {
+
+            box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 40%;
+            padding-left: 50px;
+            background: linear-gradient(to bottom, #74ebd5, #acb6e5);
+            border-radius: 5px;
+            float: center;
+        }
+        .card:hover {
+        box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+        }
+        .card_small {
+            box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            height: 110px;
+            padding-left: 50px;
+            margin: 20px;
+            background: linear-gradient(to top, #2c3e50,#4ca1af);
+            border-radius: 5px;
+            float: center;
+        }
+        .card_large {
+            box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            height: 220px;
+            padding-left: 50px;
+            margin: 20px;
+            background: linear-gradient(to top, #2c3e50,#4ca1af);
+            border-radius: 5px;
+            float: center;
+        }
+        .text_class {
+            padding-Top:5px;
+            color:white;
+        }
+        .card_xlarge {
+            box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            padding-Top:50px;
+            height: 450px;
+            margin: 20px;
+            background: linear-gradient(to top, #2c3e50,#4ca1af);
+            border-radius: 5px;
+            float: center;
+        }
+        .card_small:hover,.card_large:hover {
+        box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        tr,td {
+            padding-top: 15px;
+            padding-bottom: 10px;
+            padding-right: 25px;
+            padding-left: 1px;
+        }
+        input {
+            border-top-color: lightgrey;
+            border-left-color: lightgrey;
+            border-right-color:lightgrey;
+            border-block-end-color :black;
+            border-radius: 7px;
+            border-width: 1px;
+            height: 30px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        textarea {
+            border-top-color: lightgrey;
+            border-left-color: lightgrey;
+            border-right-color:lightgrey;
+            border-bottom-color :black;
+            border-radius: 7px;
+            border-width: 1px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        input:focus,textarea:focus {
+            outline: none;
+            border-block-end-color :skyblue;
+            z-index: -50;
+        }
+        input[type="radio"] {
+            margin: 8px;
+            height: 13px;
+        }
+        select {
+            outline:none;
+            border-radius: 10px;
+            padding-top:3px;
+            padding-bottom:3px;
+            padding-right:10px;
+            padding-left:10px
+        }
+        table {
+            margin-left: 100px;
+        }
+        label {
+            color:red;
+        }
+        button {
+            width: 70px;
+            height: 30px;
+        }
+        body {
+            background: linear-gradient(to right, #cb2d3e, #ef473a);
+        }
+        .div_left {
+            float: left;
+            width: 40%;
+            font-size-adjust: initial;
+        }
+        .div_right {
+            float: right;
+            width: 60%;
+        }
+        .div_left_half {
+            float: left;
+            width:40%;
+            height: 71%;
+            background-color: white;
+            margin-left:10px;
+            margin-right: 10px;
+            border-radius: 10px;
+        }
+        .div_half_l {
+            float: left;
+            width:30%;
+            height: 90%;
+           
+        }   
+        .div_half_r {
+            float: right;
+            width:30%;
+            height: 90%;
+        }
+        .div_right_half {
+            float: left;
+            width: 45%;
+            background-color: white;
+            margin-left:80px;
+            margin-right: 40px;
+            border-radius: 10px;
+        }
+        .div_top {
+            float: top;
+        }
+        .div_bottom {
+            float: top;
+        }
+        
+        .right{
+            background: radial-gradient(#f00000,#8E0E00);
+            float:left;
+            line-height: 25px;
+            margin: 30px;
+            padding-bottom: 20px; 
+            text-align: justify;
+            width:50%;
+            box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 40%;
+            border-radius: 15px;
+        }
+        .cen
+        {
+            float:left;
+        }
+        .middle{
+            float:left;
+            line-height: 25px;
+            margin: 30px;
+            padding-bottom: 20px; 
+            text-align: justify;
+            width: 50%;
+            color: white;
+        }

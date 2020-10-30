@@ -1,0 +1,30 @@
+create table hospital(name varchar(40),license varchar(10),type varchar(15),address varchar(100),email varchar(20),mobile varchar(10),telephone varchar(10),username varchar(15),password varchar(15),store_blood varchar(4),can_donate varchar(4));
+
+
+
+create table donors(blood_group varchar(20), name varchar(20),age int, weight int, gender varchar(8), mobile varchar(10),address varchar(100), health_history varchar(100), email varchar(20), pass varchar(20));
+
+
+
+create table request(id int auto_increment primary key, name varchar(20), mobile varchar(10), address varchar(100), pincode varchar(5), blood_group varchar(20), last_date varchar(15), purpose varchar(100))
+
+
+
+create table blood_stock(id int auto_increment primary key , blood_group varchar(20), units int);
+    insert into blood_stock(blood_group, units) values("A+","40");
+    insert into blood_stock(blood_group, units) values("A-","40");
+    insert into blood_stock(blood_group, units) values("AB+","40");
+    insert into blood_stock(blood_group, units) values("AB-","40");
+    insert into blood_stock(blood_group, units) values("O+","40");
+    insert into blood_stock(blood_group, units) values("O-","40");
+    insert into blood_stock(blood_group, units) values("B+","40");
+    insert into blood_stock(blood_group, units) values("B-","40");
+    insert into blood_stock(blood_group, units) values("A1+","40");
+    insert into blood_stock(blood_group, units) values("A1-","40");
+    insert into blood_stock(blood_group, units) values("A2+","40");
+    insert into blood_stock(blood_group, units) values("A2-","40");
+    insert into blood_stock(blood_group, units) values("A1B+","40");
+    insert into blood_stock(blood_group, units) values("A1B-","40");
+    insert into blood_stock(blood_group, units) values("A2B+","40");
+    insert into blood_stock(blood_group, units) values("A2B-","40");
+    insert into blood_stock(blood_group, units) values("Bombay","40");
